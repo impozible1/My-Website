@@ -36,7 +36,7 @@ document.addEventListener("keydown", function (event) {
             document.getElementById("input").style.textShadow = "0px 0px 10px #00ff00";
             document.body.style.textShadow = "0px 0px 10px #00ff00";
         } else if(document.getElementById("input").value === "updates"){
-            printLine("I'm not really working on anything right now.")
+            printLine("I'm working on a rhythm game right now, called \"Rush\"!")
         }
         document.getElementById("input").value = "";
     }
